@@ -19,8 +19,8 @@ Route::middleware(['auth'])->group(function () {
 });
 
 Route::get('/latihan-php', function () {
-    $nama = 'Nama Mahasiswa';
-    $nilai = [80, 75, 90];
+    $nama = 'Al Adlhu Sodri Niwrad';
+    $nilai = [80, 75, 90, 85, 95];
 
     $hitungRataRata = function (array $data): float {
         $total = 0;
