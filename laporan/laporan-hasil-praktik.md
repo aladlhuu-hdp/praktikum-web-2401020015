@@ -1,8 +1,9 @@
 # Laporan Hasil Praktik
+
 ## Pertemuan 2: Latihan PHP Dasar
 
-**Nama:** Al Adlhu Sodri Niwrad  
-**Aplikasi:** Laravel 13  
+**Nama:** Al Adlhu Sodri Niwrad
+**Aplikasi:** Laravel 13
 **Route:** `/latihan-php`
 
 ## Tujuan
@@ -61,8 +62,8 @@ View menggunakan HTML dasar dan Blade. `{{ }}` menampilkan data dengan escaping,
 
 URL: `http://127.0.0.1:8000/latihan-php`
 
-Data: `80, 75, 90, 85, 95`  
-Perhitungan: `(80 + 75 + 90 + 85 + 95) / 5 = 85.00`  
+Data: `80, 75, 90, 85, 95`
+Perhitungan: `(80 + 75 + 90 + 85 + 95) / 5 = 85.00`
 Status: **Lulus**
 
 ![Hasil pengujian Lulus](screenshots/pengujian-lulus.png)
@@ -71,8 +72,8 @@ Status: **Lulus**
 
 URL: `http://127.0.0.1:8000/latihan-php?uji=perbaikan`
 
-Data: `60, 65, 70, 68, 72`  
-Perhitungan: `(60 + 65 + 70 + 68 + 72) / 5 = 67.00`  
+Data: `60, 65, 70, 68, 72`
+Perhitungan: `(60 + 65 + 70 + 68 + 72) / 5 = 67.00`
 Status: **Perlu Perbaikan**
 
 ![Hasil pengujian Perlu Perbaikan](screenshots/pengujian-perlu-perbaikan.png)
@@ -97,6 +98,8 @@ Praktikum berhasil menerapkan variabel, array, operator aritmatika, operator per
 
 ## Repository dan Source Code
 
+Repository GitHub: https://github.com/aladlhuu-hdp/praktikum-web-2401020015
+
 Repository Git lokal berada pada folder project ini. Commit praktikum:
 
 ```text
@@ -109,5 +112,3 @@ Source code:
 - [resources/views/latihan-php.blade.php](../resources/views/latihan-php.blade.php)
 - [Screenshot pengujian Lulus](screenshots/pengujian-lulus.png)
 - [Screenshot pengujian Perlu Perbaikan](screenshots/pengujian-perlu-perbaikan.png)
-
-Repository belum memiliki remote URL yang terdaftar, sehingga lampiran source code dan screenshot disertakan langsung di folder `laporan/`.
