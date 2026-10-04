@@ -1,8 +1,8 @@
-CREATE DATABASE IF NOT EXISTS praktikum_web
+CREATE DATABASE IF NOT EXISTS praktikum_web_2401020015
     CHARACTER SET utf8mb4
     COLLATE utf8mb4_unicode_ci;
 
-USE praktikum_web;
+USE praktikum_web_2401020015;
 
 CREATE TABLE program_studi (
     id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
@@ -19,11 +19,13 @@ CREATE TABLE mahasiswa (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
         ON UPDATE CURRENT_TIMESTAMP,
+
     CONSTRAINT fk_mahasiswa_program_studi
         FOREIGN KEY (program_studi_id)
         REFERENCES program_studi(id)
         ON UPDATE CASCADE
         ON DELETE RESTRICT,
+
     CONSTRAINT chk_usia
         CHECK (usia BETWEEN 17 AND 60)
 ) ENGINE=InnoDB;

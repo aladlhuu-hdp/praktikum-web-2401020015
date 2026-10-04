@@ -1,4 +1,4 @@
-USE praktikum_web;
+USE praktikum_web_2401020015;
 
 INSERT INTO program_studi (nama_prodi) VALUES
     ('Teknik Informatika'),
